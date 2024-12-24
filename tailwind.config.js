@@ -24,6 +24,10 @@ export default {
       fontFamily: {
         Poppins: ["Poppins", "serif"]
       },
+      backgroundImage: {
+        "bg_shorten_desktop": "url('./public/assets/images/bg-shorten-desktop.svg')",
+        "bg_shorten_mobile": "url('./public/assets/images/bg-shorten-mobile.svg)"
+      }
     },
   },
   plugins: [],

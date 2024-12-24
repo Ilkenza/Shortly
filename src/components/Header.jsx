@@ -2,13 +2,13 @@ import logo from "../../public/assets/icons/logo.svg";
 
 function Header() {
   return (
-    <header className="h-20 px-20 flex items-center justify-between">
-      <div className="flex items-center space-x-6">
+    <header className="h-20 px-36 flex items-center justify-between">
+      <div className="flex items-center space-x-8">
         <a href="#">
           <img src={logo} alt="Logo" />
         </a>
         <nav>
-          <ul className="flex space-x-6">
+          <ul className="flex space-x-6 text-neutral-grayishViolet font-bold">
             <li>
               <a href="#">Features</a>
             </li>
@@ -22,10 +22,10 @@ function Header() {
         </nav>
       </div>
       <div className="flex space-x-4 ml-8">
-        <button className="rounded-full border-blue-500 px-7 py-3">
+        <button className="rounded-full text-neutral-grayishViolet font-bold px-7 py-3">
           Login
         </button>
-        <button className="rounded-full bg-blue-500 text-white px-7 py-3">
+        <button className="rounded-full font-bold bg-primary-cyan text-white px-7 py-3">
           Sign Up
         </button>
       </div>
