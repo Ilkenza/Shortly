@@ -5,7 +5,7 @@ function Shorten() {
     <section className="mx-36 relative">
       <div className="w-full absolute -top-[68px]">
         <div className="bg-primary-violet rounded-xl">
-          <form className=" lg:bg-bg_shorten_desktop bg-bg_shorten_mobile rounded-xl flex justify-center items-center p-10 gap-5">
+          <form className=" lg:bg-bg_shorten_desktop bg-bg_shorten_mobile rounded-xl flex justify-center items-center p-10 gap-5 bg-cover">
             <input
               className="py-4 px-6 rounded-xl w-[85%]"
               type="text"
