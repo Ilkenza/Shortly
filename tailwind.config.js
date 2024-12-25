@@ -26,7 +26,9 @@ export default {
       },
       backgroundImage: {
         "bg_shorten_desktop": "url('./public/assets/images/bg-shorten-desktop.svg')",
-        "bg_shorten_mobile": "url('./public/assets/images/bg-shorten-mobile.svg)"
+        "bg_shorten_mobile": "url('./public/assets/images/bg-shorten-mobile.svg)",
+        "bg_boost_desktop": "url('./public/assets/images/bg-boost-desktop.svg')",
+        "bg_boost_mobile": "url('./public/assets/images/bg-boost-mobile.svg')",
       }
     },
   },

@@ -2,7 +2,7 @@ import statsData from "../data/statsData";
 
 function Statistics() {
   return (
-    <section className="px-36 bg-slate-100 h-screen flex justify-center flex-col">
+    <section className="px-36 bg-slate-100 h-[90vh] flex justify-center flex-col">
       <div className="w-full flex items-center justify-center mb-32">
         <div className="text-center pt-20 max-w-[30rem] w-full">
           <h2 className="font-bold text-neutral-veryDarkBlue text-4xl pb-4">
@@ -14,7 +14,7 @@ function Statistics() {
           </p>
         </div>
       </div>
-      <div className="flex gap-7">
+      <div className="flex gap-7 pb-40">
         {statsData.map((stat, index) => (
           <article
             key={index}
