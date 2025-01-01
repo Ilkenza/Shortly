@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className="h-20 px-36 flex items-center justify-between">
       <div className="flex items-center space-x-8">
-        <a href="#">
+        <a href="">
           <img src={logo} alt="Logo" />
         </a>
         <nav>
