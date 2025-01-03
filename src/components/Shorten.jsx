@@ -1,77 +1,15 @@
 import { useState } from "react";
 import Short from "./Short";
+import { handleSubmit } from "../utils/urlShortener";
 
 function Shorten() {
   const [inputValue, setInputValue] = useState("");
   const [shortenedUrls, setShortenedUrls] = useState([]);
   const [error, setError] = useState("");
 
-  const isValidUrl = (value) => {
-    const urlPattern =
-      /^(https?:\/\/)([a-z0-9-]+\.)+[a-z]{2,6}(:\d+)?(\/[^\s]*)?$/i;
-    return urlPattern.test(value);
-  };
-
-  const handleSubmit = async (e) => {
+  const onSubmit = (e) => {
     e.preventDefault();
-
-    if (inputValue.trim() === "") {
-      setError("Please add a link");
-    } else {
-      const value = inputValue.trim();
-
-      if (!/^https?:\/\//i.test(value)) {
-        setError("URL must start with 'http://' or 'https://'");
-      } else if (!/[a-z0-9-]+\.[a-z]{2,6}/i.test(value)) {
-        setError(
-          "Please include a valid domain ('example.com', 'example.org')"
-        );
-      } else if (!isValidUrl(value)) {
-        setError("Please add a valid link");
-      } else if (value.includes("tinyurl.com")) {
-        setError("You cannot shorten a TinyURL link.");
-      } else {
-        setError("");
-
-        try {
-          const apiToken =
-            "OQZuhZlIQf0HJRMZNFlsCcFLemMgNnls8WcZvcXANbf3DaIyOeYwXXZ4JvGn";
-
-          const response = await fetch(
-            `https://api.tinyurl.com/create?api_token=${apiToken}`,
-            {
-              method: "POST",
-              headers: {
-                Accept: "application/json",
-                Authorization: `Bearer ${apiToken}`,
-                "Content-Type": "application/json",
-              },
-              body: JSON.stringify({
-                url: value,
-              }),
-            }
-          );
-
-          const data = await response.json();
-
-          if (data.code === 0) {
-            const newShortenedUrl = {
-              originalUrl: value,
-              shortUrl: data.data.tiny_url,
-            };
-
-            // Add new shortened URL to the list
-            setShortenedUrls((prevUrls) => [...prevUrls, newShortenedUrl]);
-            setInputValue("");
-          } else {
-            setError("Failed to shorten URL. Please try again.");
-          }
-        } catch (error) {
-          setError("Error shortening URL.");
-          console.log(error);
-        }
-      }
-    }
+    handleSubmit(inputValue, setInputValue, setShortenedUrls, setError);
   };
 
   return (
@@ -85,7 +23,7 @@ function Shorten() {
               className={`lg:bg-bg_shorten_desktop bg-bg_shorten_mobile rounded-xl bg-cover ${
                 error ? "p-10 pb-4" : "p-10"
               }`}
-              onSubmit={handleSubmit}
+              onSubmit={onSubmit}
             >
               <div className="flex justify-center items-center gap-5">
                 <input

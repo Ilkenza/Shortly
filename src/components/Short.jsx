@@ -2,13 +2,13 @@ import { useState } from "react";
 
 // eslint-disable-next-line react/prop-types
 function Short({ originalUrl, shortUrl }) {
-  const [copyStatus, setCopyStatus] = useState("");
+  const [copyStatus, setCopyStatus] = useState(false);
 
   const handleCopy = () => {
     navigator.clipboard.writeText(shortUrl);
-    setCopyStatus("Link copied!");
+    setCopyStatus(true);
 
-    setTimeout(() => setCopyStatus(""), 2000);
+    setTimeout(() => setCopyStatus(false), 2000);
   };
 
   return (
