@@ -9,7 +9,7 @@ const statsData = [
         title: "Brand Recognition",
         description:
             "Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instill confidence in your content.",
-        offsetClass: "top-0",
+        offsetClass: "top-0 md:top-0 ",
         hasBefore: false,
     },
     {
@@ -18,7 +18,7 @@ const statsData = [
         title: "Detailed Records",
         description:
             "Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.",
-        offsetClass: "top-10",
+        offsetClass: "top-0 md:top-10 before:-top-[5rem] md:before:top-[6.8rem]",
         hasBefore: true,
     },
     {
@@ -27,7 +27,7 @@ const statsData = [
         title: "Fully Customizable",
         description:
             "Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.",
-        offsetClass: "top-20",
+        offsetClass: "top-0 md:top-20 before:-top-[5rem] md:before:top-[4.8rem]",
         hasBefore: true,
     },
 ];

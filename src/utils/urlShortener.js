@@ -31,7 +31,7 @@ export function validateUrl(inputValue) {
 
         if (!/^https?:\/\//i.test(value)) {
             return "URL must start with 'http://' or 'https://'";
-        } else if (!/[a-zA-Z]{2,}(\.[a-zA-Z]{2,})(\.[a-zA-Z]{2,})?\/[a-zA-Z0-9]{2,}|((https:\/\/www\.|http:\/\/www\.|https:\/\/|http:\/\/)?[a-zA-Z]{2,}(\.[a-zA-Z]{2,})(\.[a-zA-Z]{2,})?)|(https:\/\/www\.|http:\/\/www\.|https:\/\/|http:\/\/)?[a-zA-Z0-9]{2,}\.[a-zA-Z0-9]{2,}\.[a-zA-Z0-9]{2,}(\.[a-zA-Z0-9]{2,})?/i.test(value)) {
+        } else if (!/(https?:\/\/(www\.)?)?[a-zA-Z0-9-]{2,}\.[a-zA-Z]{2,}(\.[a-zA-Z]{2,})?/i.test(value)) {
             return "Please include a valid domain ('example.com', 'www.example.com')";
         } else if (!isValidUrl(value)) {
             return "Please add a valid link";
