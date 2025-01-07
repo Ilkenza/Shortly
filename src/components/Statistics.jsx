@@ -1,9 +1,39 @@
+import { useEffect, useState } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import statsData from "../data/statsData";
 
 function Statistics() {
+  const [animation, setAnimation] = useState("zoom-in");
+
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      once: false,
+    });
+
+    const updateAOSAnimations = () => {
+      if (window.innerWidth < 768) {
+        setAnimation("fade-up");
+        setAnimation("zoom-in-up");
+      }
+      Aos.refresh();
+    };
+
+    updateAOSAnimations();
+    window.addEventListener("resize", updateAOSAnimations);
+
+    return () => {
+      window.removeEventListener("resize", updateAOSAnimations);
+    };
+  }, []);
+
   return (
-    <section className="px-6 md:px-12 lg:px-24 xl:px-36 bg-slate-100  flex justify-center flex-col relative">
-      <div className="w-full flex items-center justify-center mb-32">
+    <section className="px-6 md:px-12 lg:px-24 xl:px-36 bg-slate-100 flex justify-center flex-col relative">
+      <div
+        className="w-full flex items-center justify-center mb-32"
+        data-aos={animation}
+      >
         <div className="text-center pt-20 max-w-[30rem] w-full">
           <h2 className="font-bold text-neutral-veryDarkBlue text-3xl md:text-4xl pb-4">
             Advanced Statistics
@@ -14,6 +44,8 @@ function Statistics() {
           </p>
         </div>
       </div>
+
+      {/* Sekcija sa statistikom - koristi default "fade-in" animaciju */}
       <div className="flex md:flex-row flex-col justify-center items-center gap-20 md:gap-7 pb-40">
         {statsData.map((stat, index) => (
           <article
@@ -25,6 +57,7 @@ function Statistics() {
                 ? "before:w-2 before:h-11 md:before:w-7 md:before:h-2 md:before:-left-7 before:bg-primary-cyan before:absolute"
                 : ""
             }`}
+            data-aos="fade-in"
           >
             <img
               className="bg-primary-violet p-5 rounded-full absolute -top-10 w-20"

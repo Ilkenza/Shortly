@@ -1,6 +1,6 @@
-import brand from "../../public/assets/icons/icon-brand-recognition.svg";
-import detailed from "../../public/assets/icons/icon-detailed-records.svg";
-import customizable from "../../public/assets/icons/icon-fully-customizable.svg";
+import brand from "../assets/icons/icon-brand-recognition.svg";
+import detailed from "../assets/icons/icon-detailed-records.svg";
+import customizable from "../assets/icons/icon-fully-customizable.svg"
 
 const statsData = [
     {

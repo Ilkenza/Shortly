@@ -13,14 +13,18 @@ function Shorten() {
   };
 
   return (
-    <section className="px-6 md:px-12 lg:px-24 xl:px-36 bg-slate-100">
+    <section
+      className="px-6 md:px-12 lg:px-24 xl:px-36 bg-slate-100"
+      id="shorten"
+    >
       <div className="relative">
         <div
-          className={`w-full absolute ${
+          className={`w-full absolute  ${
             error
               ? "-top-[82px] sm:-top-[54px] md:-top-[60px] lg:-top-[70px] xl:-top-[74px]"
               : "-top-[68px] sm:-top-[40px] md:-top-[44px] lg:-top-[52px] xl:-top-[68px]"
           }`}
+          data-aos="zoom-in"
         >
           <div className="bg-primary-violet rounded-xl">
             <form
@@ -50,7 +54,10 @@ function Shorten() {
                     </p>
                   )}
                 </div>
-                <button className="text-white font-bold bg-primary-cyan py-2 md:py-3 lg:py-4 rounded-md sm:rounded-lg lg:rounded-xl w-full sm:w-[30%] md:w-1/5 lg:w-[15%]">
+                <button
+                  className="text-white font-bold bg-primary-cyan py-2 md:py-3 lg:py-4 rounded-md sm:rounded-lg lg:rounded-xl w-full sm:w-[30%] md:w-1/5 lg:w-[15%] hover:shadow-[inset_0px_60px_5px_rgba(255,255,255,0.6)] transition-shadow duration-300"
+                  id="shorten"
+                >
                   Shorten It!
                 </button>
               </div>

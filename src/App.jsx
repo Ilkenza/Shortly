@@ -14,6 +14,16 @@ function App() {
       <Statistics />
       <Boost />
       <Footer />
+      <h6 className="w-full bg-neutral-veryDarkViolet text-center text-white pb-5">
+        Made by
+        <a
+          href="https://ilijakorodic.netlify.app/"
+          className="underline hover:text-primary-cyan transition-colors duration-300"
+        >
+          {" "}
+          Ilija Korodic
+        </a>
+      </h6>
     </>
   );
 }
