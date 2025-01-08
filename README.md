@@ -19,5 +19,23 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 ## Installation
 
 ```shell
-git clone https://github.com/Ilkenza/shortly.git
+git clone https://github.com/Ilkenza/Shortly.git
+```
+
+```shell
+cd Shortly
+```
+
+Change in your token on tinyurl
+
+```shell
+API_TOKEN = "YOUR_TOKEN";
+```
+
+```shell
+npm install
+```
+
+```shell
+npm install
 ```

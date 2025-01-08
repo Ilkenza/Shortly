@@ -1,4 +1,4 @@
-const API_TOKEN = "OQZuhZlIQf0HJRMZNFlsCcFLemMgNnls8WcZvcXANbf3DaIyOeYwXXZ4JvGn";
+const API_TOKEN = "YOUR_TOKEN";
 
 export async function shortenUrl(url) {
     const response = await fetch(
