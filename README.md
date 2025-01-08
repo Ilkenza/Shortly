@@ -1,6 +1,6 @@
-# <b>Shortly</b>
+# **Shortly**
 
-# Installation
+## Installation
 
 ## Technologies
 
