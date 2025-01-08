@@ -18,10 +18,9 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 
 ## Design
 
-<img src="./public/design/desktop-active-states.jpg">
 <img src="./public/design/desktop-design.jpg">
 <img src="./public/design/desktop-preview.jpg">
-<img src="./public/design/mobile-active-states.jpg"><img src="./public/design/mobile-design.jpg"><img src="./public/design/mobile-navigation.jpg">
+<img src="./public/design/mobile-design.jpg">
 
 ## Installation
 
