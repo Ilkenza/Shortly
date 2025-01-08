@@ -18,33 +18,33 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 
 ## Installation
 
-# Clone the repository
+Clone the repository
 
 ```shell
 git clone https://github.com/Ilkenza/Shortly.git
 ```
 
-# Navigate to the project directory
+Navigate to the project directory
 
 ```shell
 cd Shortly
 ```
 
-# Set your API Token
+Set your API Token
 
-# Replace "YOUR_TOKEN" with your TinyURL API token in the appropriate file
+Replace "YOUR_TOKEN" with your TinyURL API token in the appropriate file
 
 ```shell
 API_TOKEN = "YOUR_TOKEN";
 ```
 
-# Install dependencies
+Install dependencies
 
 ```shell
 npm install
 ```
 
-# Start the development server
+Start the development server
 
 ```shell
 npm run dev
