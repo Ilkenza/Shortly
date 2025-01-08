@@ -1,6 +1,10 @@
 # **Shortly**
 
-## Installation
+This is a solution to the [Shortly URL shortening API Challenge challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G).
+
+## Demo
+
+![Demo]()
 
 ## Technologies
 
@@ -11,3 +15,7 @@
 - ![TinyURL API](https://cdn.simpleicons.org/imgur/0077B5?size=20) [TinyURL API](https://tinyurl.com/)
 - ![Google Fonts](https://cdn.simpleicons.org/google/4285F4?size=20) [Google Fonts](https://fonts.google.com/)
 - <img src="https://jonsuh.com/hamburgers/favicon.ico" style="height:20px;" alt="Alt text" title="Optional title"> [Jonsuh Hamburger](https://jonsuh.com/hamburgers/)
+
+## Installation
+
+git clone https://github.com/Ilkenza/shortly.git
