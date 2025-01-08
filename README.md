@@ -57,5 +57,5 @@ npm run dev
 
 ## Author
 
-[Portfolio](https://ilijakorodic.netlify.app/)
-[My Links](https://linktr.ee/ilkenza)
+- [Portfolio](https://ilijakorodic.netlify.app/)
+- [My Links](https://linktr.ee/ilkenza)
