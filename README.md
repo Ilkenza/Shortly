@@ -16,6 +16,15 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 - ![Google Fonts](https://cdn.simpleicons.org/google/4285F4?size=20) [Google Fonts](https://fonts.google.com/) for typography
 - <img src="https://jonsuh.com/hamburgers/favicon.ico" style="height:20px;" alt="Alt text" title="Optional title"> [Jonsuh Hamburger](https://jonsuh.com/hamburgers/) For the hamburger menu animation
 
+## Design
+
+<img src="./public/design/desktop-active-states.jpg">
+<img src="./public/design/desktop-design.jpg">
+<img src="./public/design/desktop-preview.jpg">
+<img src="./public/design/mobile-active-states.jpg">
+<img src="./public/design/mobile-design.jpg">
+<img src="./public/design/mobile-navigation.jpg">
+
 ## Installation
 
 Clone the repository
@@ -49,3 +58,5 @@ Start the development server
 ```shell
 npm run dev
 ```
+
+## Author
