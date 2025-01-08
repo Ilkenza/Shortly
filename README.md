@@ -18,4 +18,6 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 
 ## Installation
 
+```shell
 git clone https://github.com/Ilkenza/shortly.git
+```
