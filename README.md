@@ -12,4 +12,5 @@
 - ![TinyURL API](https://cdn.simpleicons.org/linkedin/0077B5?size=20) [TinyURL API](https://tinyurl.com/)
 - ![Google Fonts](https://cdn.simpleicons.org/google/4285F4?size=20) [Google Fonts](https://fonts.google.com/)
 - ![Jonsuh Hamburger](https://jonsuh.com/hamburgers/favicon.ico) [Jonsuh Hamburger](https://jonsuh.com/hamburgers/)
-  <img src="https://cdn.simpleicons.org/linkedin/0077B5?size=20" alt="Alt text" title="Optional title"> resaga
+
+* <img src="https://cdn.simpleicons.org/react/61DAFB" alt="Alt text" title="Optional title"> resaga
