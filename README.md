@@ -1,10 +1,15 @@
-# Shortly
+# <b>Shortly</b>
 
-# React + Vite
+# Installation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technologies
 
-Currently, two official plugins are available:
+![React](https://cdn.simpleicons.org/react/61DAFB?size=20 "react") ~ [React](https://react.dev/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ![Vite](https://cdn.simpleicons.org/vite/646CFF?size=20) [Vite](https://vitejs.dev/)
+- ![Tailwind CSS](https://cdn.simpleicons.org/tailwindcss/06B6D4?size=20) [Tailwind CSS](https://tailwindcss.com/)
+- ![AOS.js](https://cdn.simpleicons.org/javascript/FFD700?size=20) [AOS.js](https://michalsnik.github.io/aos/)
+- ![TinyURL API](https://cdn.simpleicons.org/linkedin/0077B5?size=20) [TinyURL API](https://tinyurl.com/)
+- ![Google Fonts](https://cdn.simpleicons.org/google/4285F4?size=20) [Google Fonts](https://fonts.google.com/)
+- ![Jonsuh Hamburger](https://jonsuh.com/hamburgers/favicon.ico) [Jonsuh Hamburger](https://jonsuh.com/hamburgers/)
+  <img src="https://cdn.simpleicons.org/linkedin/0077B5?size=20" alt="Alt text" title="Optional title"> resaga
