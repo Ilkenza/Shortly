@@ -14,6 +14,7 @@ This project is a solution to the [Shortly URL shortening API Challenge challeng
 - ![AOS.js](https://cdn.simpleicons.org/javascript/FFD700?size=20) [AOS.js](https://michalsnik.github.io/aos/) for smooth animations
 - ![TinyURL API](https://cdn.simpleicons.org/imgur/0077B5?size=20) [TinyURL API](https://tinyurl.com/) For shortening URLs
 - ![Google Fonts](https://cdn.simpleicons.org/google/4285F4?size=20) [Google Fonts](https://fonts.google.com/) for typography
+- ![Netlify](https://cdn.simpleicons.org/netlify/00C7B7?size=20) [Netlify](https://www.netlify.com/) for host
 - <img src="https://jonsuh.com/hamburgers/favicon.ico" style="height:20px;" alt="Alt text" title="Optional title"> [Jonsuh Hamburger](https://jonsuh.com/hamburgers/) For the hamburger menu animation
 
 ## Design
