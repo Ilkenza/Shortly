@@ -19,6 +19,7 @@ function App() {
         <a
           href="https://ilijakorodic.netlify.app/"
           className="underline hover:text-primary-cyan transition-colors duration-300"
+          target="_blank"
         >
           {" "}
           Ilija Korodic
