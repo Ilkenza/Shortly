@@ -25,10 +25,10 @@ export default {
         Poppins: ["Poppins", "serif"]
       },
       backgroundImage: {
-        "bg_shorten_desktop": "url('./src/assets/images/bg-shorten-desktop.svg')",
-        "bg_shorten_mobile": "url('./src/assets/images/bg-shorten-mobile.svg')",
-        "bg_boost_desktop": "url('./src/assets/images/bg-boost-desktop.svg')",
-        "bg_boost_mobile": "url('./src/assets/images/bg-boost-mobile.svg')",
+        "bg_shorten_desktop": "url('./assets/images/bg-shorten-desktop.svg')",
+        "bg_shorten_mobile": "url('./assets/images/bg-shorten-mobile.svg')",
+        "bg_boost_desktop": "url('./assets/images/bg-boost-desktop.svg')",
+        "bg_boost_mobile": "url('./assets/images/bg-boost-mobile.svg')",
       }
     },
   },
