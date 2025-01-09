@@ -11,7 +11,7 @@ function Header() {
   return (
     <header className="h-20 px-6 md:px-12 lg:px-24 xl:px-36 flex items-center justify-between relative top-0 left-0 w-full z-20">
       <div className="flex items-center space-x-0 md:space-x-8">
-        <a href="">
+        <a href="#">
           <img src={logo} alt="Logo" />
         </a>
         <nav

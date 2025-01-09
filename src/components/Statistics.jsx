@@ -45,7 +45,6 @@ function Statistics() {
         </div>
       </div>
 
-      {/* Sekcija sa statistikom - koristi default "fade-in" animaciju */}
       <div className="flex md:flex-row flex-col justify-center items-center gap-20 md:gap-7 pb-40">
         {statsData.map((stat, index) => (
           <article

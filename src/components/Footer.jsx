@@ -19,7 +19,7 @@ function Footer() {
             <li>
               <a
                 className="hover:text-primary-cyan transition-colors duration-300"
-                href=""
+                href="#"
               >
                 Link Shortening
               </a>
@@ -27,7 +27,7 @@ function Footer() {
             <li>
               <a
                 className="hover:text-primary-cyan transition-colors duration-300"
-                href=""
+                href="#"
               >
                 Branded Links
               </a>
@@ -35,7 +35,7 @@ function Footer() {
             <li>
               <a
                 className="hover:text-primary-cyan transition-colors duration-300"
-                href=""
+                href="#"
               >
                 Analytics
               </a>
@@ -50,7 +50,7 @@ function Footer() {
             <li>
               <a
                 className="hover:text-primary-cyan transition-colors duration-300"
-                href=""
+                href="#"
               >
                 Blog
               </a>
@@ -58,7 +58,7 @@ function Footer() {
             <li>
               <a
                 className="hover:text-primary-cyan transition-colors duration-300"
-                href=""
+                href="#"
               >
                 Developers
               </a>
@@ -66,7 +66,7 @@ function Footer() {
             <li>
               <a
                 className="hover:text-primary-cyan transition-colors duration-300"
-                href=""
+                href="#"
               >
                 Support
               </a>
@@ -81,7 +81,7 @@ function Footer() {
             <li>
               <a
                 className="hover:text-primary-cyan transition-colors duration-300"
-                href=""
+                href="#"
               >
                 About
               </a>
@@ -89,7 +89,7 @@ function Footer() {
             <li>
               <a
                 className="hover:text-primary-cyan transition-colors duration-300"
-                href=""
+                href="#"
               >
                 Our Team
               </a>
@@ -97,7 +97,7 @@ function Footer() {
             <li>
               <a
                 className="hover:text-primary-cyan transition-colors duration-300"
-                href=""
+                href="#"
               >
                 Careers
               </a>
@@ -105,7 +105,7 @@ function Footer() {
             <li>
               <a
                 className="hover:text-primary-cyan transition-colors duration-300"
-                href=""
+                href="#"
               >
                 Contact
               </a>
@@ -114,23 +114,35 @@ function Footer() {
         </li>
         <ul className="flex gap-5 justify-center">
           <li>
-            <a href="">
-              <object data={Facebook} type="image/svg+xml"></object>
+            <a href="#">
+              <object
+                data={Facebook}
+                type="image/svg+xml"
+                alt="Facebook"
+              ></object>
             </a>
           </li>
           <li>
-            <a href="">
-              <object data={X} type="image/svg+xml"></object>
+            <a href="#">
+              <object data={X} type="image/svg+xml" alt="X"></object>
             </a>
           </li>
           <li>
-            <a href="">
-              <object data={Pinterest} type="image/svg+xml"></object>
+            <a href="#">
+              <object
+                data={Pinterest}
+                type="image/svg+xml"
+                alt="Pinterest"
+              ></object>
             </a>
           </li>
           <li>
-            <a href="">
-              <object data={Instagram} type="image/svg+xml"></object>
+            <a href="#">
+              <object
+                data={Instagram}
+                type="image/svg+xml"
+                alt="Instagram"
+              ></object>
             </a>
           </li>
         </ul>
