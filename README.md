@@ -4,7 +4,7 @@ This project is a solution to the [Shortly URL shortening API Challenge challeng
 
 ## Demo
 
-![Demo](https://shortlyshorteningapi.netlify.app/)
+[Demo](https://shortlyshorteningapi.netlify.app/)
 
 ## Technologies
 
