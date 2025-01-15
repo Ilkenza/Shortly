@@ -49,7 +49,7 @@ function Statistics() {
         {statsData.map((stat, index) => (
           <article
             key={index}
-            className={`rounded-sm bg-white px-6 lg:px-8 pt-16 lg:pt-20 pb-8 lg:pb-10 relative w-full md:w-1/3 flex flex-col items-center ${
+            className={`rounded-sm bg-white px-6 lg:px-8 pt-16 lg:pt-20 pb-8 lg:pb-10 relative w-full md:w-1/3 flex flex-col items-center md:items-start ${
               stat.offsetClass
             } ${
               stat.hasBefore
